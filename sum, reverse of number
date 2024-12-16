@@ -15,3 +15,20 @@ void main(){
     printf("the reverse is %d",x);
     getch();
 }
+//Sum of digits//
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int x,d1,d2,d3;
+    printf("enter a 4 digit number\n");
+    scanf("%d",&x);
+    d1=x % 10;
+    x/=10;
+    d2=x % 10;
+    x/=10;
+    d3=x % 10;
+    x/=10;
+    x=d1 + d2 + d3 + x;
+    printf("the sum of digits is %d",x);
+    getch();
+}

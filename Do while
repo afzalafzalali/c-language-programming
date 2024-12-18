@@ -1,0 +1,7 @@
+//find sum of its digits//
+while(n!=0)
+{
+ d=n%10;
+ n=n/10;
+ s=s+d;
+}

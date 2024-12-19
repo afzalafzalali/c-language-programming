@@ -1,0 +1,79 @@
+//WAP TO PRINT PASS OR FAIL IN TWO SUBJECTS//
+#include<stdio.h>
+int main(){
+    int m1, m2;
+    printf("enter marks\n");
+    scanf("%d %d",&m1,&m2);
+    if(m1>50 && m2>50){
+        printf("pass");
+    }
+    else{
+        printf("fail");
+    }
+    return 0;
+}
+
+//WAP TO PRINT PASS COMPARTMENT FAIL IN THREE SUBJECTS//
+#include<stdio.h>
+int main(){
+    int m1,m2,m3;
+    printf("enter marks\n");
+    scanf("%d %d %d",&m1,&m2,&m3);
+    if(m1>50 && m2>50 && m3>50){
+        printf("pass");
+    }
+   else if(m1>50 && m2>50 || m1>50 && m3>50 || m2>50 && m3>50){
+        printf("compartment");
+    }
+    else{
+        printf("fail");
+    }
+    return 0;
+}
+// same program with different approach//
+#include<stdio.h>
+int main(){
+    int m1,m2,m3,count = 0;
+    printf("enter marks\n");
+    scanf("%d %d %d",&m1,&m2,&m3,&count);
+    if(m1>50)
+    count++;
+    if(m2>50)
+    count++;
+    if(m3>50)
+    count++;
+    if(count == 3){
+        printf("pass");
+    }
+    if(count == 2){
+        printf("comp");
+    }
+    if(count == 1 || count == 0){
+        printf("fail");
+    }
+    return 0;
+}
+
+//WAP TP PRINT GRADES OF TOTAL MARKS//
+#include<stdio.h>
+int main(){
+    int m1;
+    printf("enter mark\n");
+    scanf("%d",&m1);
+    if(m1>=60 && m1<=69){
+        printf("D");
+    }   
+     else if(m1>=70 && m1<=79){
+        printf("C");
+    } 
+     else if(m1>=80 && m1<=89){
+        printf("B");
+    } 
+     else if(m1>=90 && m1<=99){
+        printf("A");
+    }  
+    else{
+        printf("Invalid input");
+    }
+    return 0;
+}

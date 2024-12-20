@@ -68,3 +68,26 @@ int main(){
     }
     return 0;
 }
+
+//Program to find greatest of two given numbers//
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter x and y\n");
+    scanf("%d %d",&x,&y);
+    if(x==y){
+        printf("same");
+    }
+    else{
+    switch(x>y){
+        case 1:
+        printf("x is greater");
+        break;
+
+        default:
+        printf("y is greater");
+        break;
+    }
+    }
+    return 0;
+}

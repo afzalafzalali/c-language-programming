@@ -16,3 +16,28 @@ int main(){
     }
     return 0;
 }
+
+//Program to print grades using switch case//
+#include<stdio.h>
+int main(){
+    int x;
+    printf("enter x\n");
+    scanf("%d",&x);
+    switch(x/10){
+        case 6:
+        printf("D");
+        break;
+        case 7:
+        printf("C");
+        break;
+        case 8:
+        printf("B");
+        break;
+        case 9:
+        printf("A");
+        break;
+        default:
+        printf("invalid");
+    }
+    return 0;
+}

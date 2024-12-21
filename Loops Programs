@@ -19,3 +19,18 @@ int main(){
     }
     return 0;
 }
+
+//Program to print sum of digits of any number//
+#include<stdio.h>
+int main(){
+    int s=0,n,d;
+    printf("enter a number:");
+    scanf("%d",&n);
+    while(n!=0){
+        d=n%10;
+        n=n/10;
+        s=s+d;
+    }
+    printf("sum is %d",s);
+    return 0;
+}

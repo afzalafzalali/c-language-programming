@@ -58,3 +58,25 @@ int main(){
     }
     return 0;
 }   
+
+//Pattern 4//
+1
+23
+456
+78910
+1112131415
+
+//code//
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int x=1,l,c;
+    for(l=1;l<=5;l++){
+        for(c=1;c<=l;c++){
+        printf("%d",x);
+        x++;
+        }
+        printf("\n");
+    }
+    return 0;
+} 

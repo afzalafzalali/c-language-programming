@@ -1,0 +1,20 @@
+//Print Pattern using for loop//
+//Pattern 1//
+1
+11
+111
+1111
+11111
+
+//code//
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int l,c;
+    for(l=1;l<=5;l++){
+        for(c=1;c<=l;c++)
+        printf("1");
+        printf("\n");
+    }
+    return 0;
+}  

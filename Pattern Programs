@@ -38,3 +38,23 @@ int main(){
     }
     return 0;
 } 
+
+//Pattern 3//
+1
+22
+333
+4444
+55555
+
+//Code//
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int l,c;
+    for(l=1;l<=5;l++){
+        for(c=1;c<=l;c++)
+        printf("%d",l);
+        printf("\n");
+    }
+    return 0;
+}   

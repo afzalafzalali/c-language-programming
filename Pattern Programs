@@ -137,3 +137,36 @@ int main(){
  return 0;
 }
 
+//Pattern 7//
+1111
+ 111
+  11
+   1
+  11
+ 111
+1111
+
+//code//
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int l,c,s;
+    for(l=1;l<=7;l++){
+       if(l<=4){ 
+        for(s=2;s<=l;s++){
+            printf(" ");
+        }
+        for(c=4;c>=l;c--){
+            printf("1");
+        }
+       }else{
+        for(s=6;s>=l;s--){
+            printf(" ");
+        }
+        for(c=4;c<=l;c++){
+            printf("1");
+        }
+       }
+     printf("\n");
+    }
+}

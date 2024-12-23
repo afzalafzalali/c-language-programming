@@ -80,3 +80,30 @@ int main(){
     }
     return 0;
 } 
+
+//Pattern 5//
+1
+11
+111
+1111
+111
+11
+1
+
+//code//
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int l,c;
+    for(l=1;l<=4;l++){
+        for(c=1;c<=l;c++)
+        printf("1");
+        printf("\n");
+    }
+    for(l=1;l<=4;l++){
+        for(c=3;c>=l;c--)
+        printf("1");
+        printf("\n");
+    }
+    return 0;
+}

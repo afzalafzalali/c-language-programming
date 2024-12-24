@@ -1,0 +1,8 @@
+//array program//
+#include<stdio.h>
+int main(){
+ int x[i],i;
+  for(i=0;i<=9;i++){
+    scanf("%d",&x[i]);
+  }
+return 0;

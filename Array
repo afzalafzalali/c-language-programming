@@ -22,3 +22,19 @@ int main(){
   }
 return 0;
 }
+
+//reverse of array//
+#include<stdio.h>
+int main(){
+ int x[10];
+ int i;
+ printf("enter the elements")
+  for(i=0;i<10;i++){
+    scanf("%d",&x[i]);
+  }
+ for(i=10;i>0;i--){
+    printf("%d",x[i]);
+    printf("\n");
+  }
+return 0;
+}

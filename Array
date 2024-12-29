@@ -24,13 +24,12 @@ int  main()
 int main(){
  int x[10];
  int i;
- printf("enter the elements")
+ printf("enter the elements");
   for(i=0;i<10;i++){
     scanf("%d",&x[i]);
   }
  for(i=10;i>0;i--){
-    printf("%d",x[i]);
-    printf("\n");
+    printf("%d\t",x[i]);
   }
 return 0;
 }

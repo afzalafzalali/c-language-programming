@@ -34,7 +34,8 @@ int main(){
 return 0;
 }
 
-//largest element in array//
+//WAP to find largest element in array//
+//Approach 1//
 #include <stdio.h>  
 int main()  
 {  
@@ -56,6 +57,24 @@ int main()
     printf("Largest element present in given array: %d\n", max);  
   return 0
 }
+//Approach 2//
+#include<stdio.h>
+int main(){
+    int x[5],i,g;
+    printf("enter elements\n");
+    for(i=0;i<=4;i++){
+        scanf("%d",&x[i]);
+        g=x[0];
+    }
+    printf("the largest element is:");
+    for(i=0;i<=4;i++){
+        if(x[i]>g){
+            g=x[i];
+        }
+    }
+    printf("%d",g);
+    return 0;
+} 
 
 //WAP to convert binary number to decimal//
 #include <stdio.h>   

@@ -1,0 +1,9 @@
+//strings in c//
+#include<stdio.h>
+int main(){
+char x[10];
+printf("enter the string: ");
+scanf("%s",&x);
+printf("the string is : ",x);
+return 0;
+}

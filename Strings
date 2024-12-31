@@ -7,3 +7,13 @@ scanf("%s",&x);
 printf("the string is : ",x);
 return 0;
 }
+
+//function in strings//
+//GETS AND PUTS//
+#include<stdio.h>
+int main(){
+char x[10];
+gets(x);
+puts(x);
+return 0;
+}

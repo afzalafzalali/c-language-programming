@@ -26,3 +26,13 @@ gets(x);
 strrev(x);
 return 0;
 }
+
+
+//strrev//
+#include<stdio.h>
+int main(){
+char x[10];
+gets(x);
+strrev(x);
+return 0;
+}
